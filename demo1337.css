@@ -1,0 +1,935 @@
+﻿
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower&display=swap');
+
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+}
+/*@media (min-width: 500px) {
+    body {
+        background: url('../img/mobile.PNG');
+        min-height: 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+    }*/
+
+.nav-left {
+  position: fixed;
+  left: 1px;
+}
+
+.nav-right {
+    position: fixed;
+    right: 1px;
+}
+
+.start {
+    clear: both;
+}
+
+.absolute {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.ajanvaraus {
+    margin-top: 350px !important;
+    background-color: white;
+    top: inherit;
+    clear: both;
+}
+
+#logo {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    left: 36%;
+}
+
+#hpp {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    -webkit-animation: horse 3s infinite normal ease-out;
+    animation: horse 3s;
+    display: block;
+    margin-left: 70%;
+    animation-fill-mode: forwards;
+    left: -60%;
+    z-index: 1;
+}
+
+
+@keyframes horse {
+    0% {
+        top: -80%;
+    }
+
+    100% {
+        top: 5%;
+    }
+}
+
+#flm {
+    width: 20%;
+    height: auto;
+    position: relative;
+    -webkit-animation: flamingo 2s infinite normal ease-out;
+    animation: flamingo 2s;
+    display: block;
+    margin-left: 70%;
+    animation-fill-mode: forwards;
+    top: 400px;
+}
+
+@keyframes flamingo {
+    0% {
+        left: 300px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+/**/
+#shv {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    -webkit-animation: sofa 2s infinite normal ease-out;
+    animation: sofa 2s;
+    display: block;
+    margin-top: 10%;
+    margin-left: 22%;
+    animation-fill-mode: forwards;
+    z-index: 3;
+}
+
+@keyframes sofa {
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: 200px;
+    }
+}
+/**/
+
+
+#hly {
+    max-width: 25%;
+    height: auto;
+    position: absolute;
+    -webkit-animation: hylly 1s infinite normal ease-out;
+    animation: hylly 1s;
+    display: block;
+    margin-top: 5%;
+    margin-left: 25%;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hylly {
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: 160px;
+    }
+}
+/**/
+#pnapl1 {
+    width: 7%;
+    height: auto;
+    -webkit-animation: pine1 2s infinite normal ease-out;
+    animation: pine1 2s;
+    display: block;
+    position: absolute;
+    animation-fill-mode: forwards;
+    top: 190px;
+    margin-left: 22%;
+    z-index: 3;
+}
+
+@keyframes pine1 {
+    0% {
+        left: 0px;
+    }
+
+    100% {
+        left: 260px;
+    }
+}
+
+/**/
+#pnapl2 {
+    width: 7%;
+    height: auto;
+    -webkit-animation: pine2 2s infinite normal ease-out;
+    animation: pine2 2s;
+    display: block;
+    position: absolute;
+    margin-left: 50%;
+    animation-fill-mode: forwards;
+    left: 55px;
+    z-index: 3;
+}
+
+@keyframes pine2 {
+    0% {
+        top: -400px;
+    }
+
+    100% {
+        top: 180px;
+    }
+}
+
+
+/**/
+#pnapl3 {
+    width: 7%;
+    height: auto;
+    -webkit-animation: pine3 2s infinite normal ease-out;
+    animation: pine3 2s;
+    display: block;
+    position: absolute;
+    animation-fill-mode: forwards;
+    left: 710px;
+    z-index: 3;
+}
+
+
+@keyframes pine3 {
+    0% {
+        top: 400px;
+    }
+
+    100% {
+        top: 175px;
+    }
+}
+/**/
+#mto {
+    width: 30%;
+    height: auto;
+    position: relative;
+    -webkit-animation: carpet 2s infinite normal ease-out;
+    animation: carpet 2s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation-fill-mode: forwards;
+}
+
+@keyframes carpet {
+    0% {
+        top: 5px;
+    }
+
+    100% {
+        top: 325px;
+    }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /*body {
+        background: url(../img/3dbuttom.png) no-repeat top center fixed;
+        background-size: cover;
+        height: 100%;
+        width:auto;
+        overflow: hidden;
+    }*/
+    .container {
+        height: 20vh;
+    }
+
+    .start {
+        clear: both;
+    }
+
+    .absolute {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .ajanvaraus {
+        margin-top: 350px !important;
+        background-color: white;
+        top: inherit;
+        clear: both;
+    }
+
+
+    #hpp {
+        width: 15%;
+        height: auto;
+        position: absolute;
+        -webkit-animation: horse 3s infinite normal ease-out;
+        animation: horse 3s;
+        display: block;
+        margin-left: 70%;
+        animation-fill-mode: forwards;
+        left: -650px;
+        z-index: 1;
+    }
+
+
+    @keyframes horse {
+        0% {
+            top: -80px;
+        }
+
+        100% {
+            top: 160px;
+        }
+    }
+
+    #flm {
+        width: 20%;
+        height: auto;
+        position: relative;
+        -webkit-animation: flamingo 2s infinite normal ease-out;
+        animation: flamingo 2s;
+        display: block;
+        margin-left: 70%;
+        animation-fill-mode: forwards;
+        top: 450px;
+    }
+
+    @keyframes flamingo {
+        0% {
+            left: 300px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+    /**/
+    #shv {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        -webkit-animation: sofa 2s infinite normal ease-out;
+        animation: sofa 2s;
+        display: block;
+        margin-top: 10%;
+        margin-left: 22%;
+        animation-fill-mode: forwards;
+        z-index: 3;
+    }
+
+    @keyframes sofa {
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: 350px;
+        }
+    }
+    /**/
+
+
+    #hly {
+        max-width: 30%;
+        height: auto;
+        position: absolute;
+        -webkit-animation: hylly 1s infinite normal ease-out;
+        animation: hylly 1s;
+        display: block;
+        margin-top: 5%;
+        margin-left: 21%;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes hylly {
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: 230px;
+        }
+    }
+    /**/
+    #pnapl1 {
+        width: 10%;
+        height: auto;
+        -webkit-animation: pine1 2s infinite normal ease-out;
+        animation: pine1 2s;
+        display: block;
+        position: absolute;
+        animation-fill-mode: forwards;
+        top: 235px;
+        margin-left: 22%;
+        z-index: 3;
+    }
+
+    @keyframes pine1 {
+        0% {
+            left: 0px;
+        }
+
+        100% {
+            left: 140px;
+        }
+    }
+
+    /**/
+    #pnapl2 {
+        width: 10%;
+        height: auto;
+        -webkit-animation: pine2 2s infinite normal ease-out;
+        animation: pine2 2s;
+        display: block;
+        position: absolute;
+        margin-left: 50%;
+        animation-fill-mode: forwards;
+        left: -55px;
+        z-index: 3;
+    }
+
+    @keyframes pine2 {
+        0% {
+            top: -200px;
+        }
+
+        100% {
+            top: 225px;
+        }
+    }
+
+
+    /**/
+    #pnapl3 {
+        width: 10%;
+        height: auto;
+        -webkit-animation: pine3 2s infinite normal ease-out;
+        animation: pine3 2s;
+        display: block;
+        position: absolute;
+        animation-fill-mode: forwards;
+        left: 520px;
+        z-index: 3;
+    }
+
+
+    @keyframes pine3 {
+        0% {
+            top: 400px;
+        }
+
+        100% {
+            top: 215px;
+        }
+    }
+    /**/
+    #mto {
+        width: 30%;
+        height: auto;
+        position: relative;
+        -webkit-animation: carpet 2s infinite normal ease-out;
+        animation: carpet 2s;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes carpet {
+        0% {
+            top: 5px;
+        }
+
+        100% {
+            top: 410px;
+        }
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-device-width: 480px) and (max-device-width: 680px) and (orientation: landscape) {
+
+    .container {
+        height: 20vh;
+    }
+
+    .start {
+        clear: both;
+    }
+
+    .absolute {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .ajanvaraus {
+        margin-top: 450px !important;
+        background-color: white;
+        top: inherit;
+        clear: both;
+        max-width: inherit;
+    }
+
+
+    #hpp {
+        width: 15%;
+        height: auto;
+        position: absolute;
+        -webkit-animation: horse 3s infinite normal ease-out;
+        animation: horse 3s;
+        display: block;
+        margin-left: 70%;
+        animation-fill-mode: forwards;
+        left: -650px;
+        z-index: 1;
+    }
+
+
+    @keyframes horse {
+        0% {
+            top: -80px;
+        }
+
+        100% {
+            top: 130px;
+        }
+    }
+
+    #flm {
+        width: 20%;
+        height: auto;
+        position: relative;
+        -webkit-animation: flamingo 2s infinite normal ease-out;
+        animation: flamingo 2s;
+        display: block;
+        margin-left: 70%;
+        animation-fill-mode: forwards;
+        top: 350px;
+    }
+
+    @keyframes flamingo {
+        0% {
+            left: 300px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+    /**/
+    #shv {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        -webkit-animation: sofa 2s infinite normal ease-out;
+        animation: sofa 2s;
+        display: block;
+        margin-top: 10%;
+        margin-left: 22%;
+        animation-fill-mode: forwards;
+        z-index: 3;
+    }
+
+    @keyframes sofa {
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: 230px;
+        }
+    }
+    /**/
+
+
+    #hly {
+        max-width: 30%;
+        height: auto;
+        position: absolute;
+        -webkit-animation: hylly 1s infinite normal ease-out;
+        animation: hylly 1s;
+        display: block;
+        margin-top: 5%;
+        margin-left: 21%;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes hylly {
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: 180px;
+        }
+    }
+    /**/
+    #pnapl1 {
+        width: 10%;
+        height: auto;
+        -webkit-animation: pine1 2s infinite normal ease-out;
+        animation: pine1 2s;
+        display: block;
+        position: absolute;
+        animation-fill-mode: forwards;
+        top: 175px;
+        margin-left: 22%;
+        z-index: 3;
+    }
+
+    @keyframes pine1 {
+        0% {
+            left: 0px;
+        }
+
+        100% {
+            left: 140px;
+        }
+    }
+
+    /**/
+    #pnapl2 {
+        width: 10%;
+        height: auto;
+        -webkit-animation: pine2 2s infinite normal ease-out;
+        animation: pine2 2s;
+        display: block;
+        position: absolute;
+        margin-left: 50%;
+        animation-fill-mode: forwards;
+        left: -55px;
+        z-index: 3;
+    }
+
+    @keyframes pine2 {
+        0% {
+            top: -200px;
+        }
+
+        100% {
+            top: 175px;
+        }
+    }
+
+
+    /**/
+    #pnapl3 {
+        width: 10%;
+        height: auto;
+        -webkit-animation: pine3 2s infinite normal ease-out;
+        animation: pine3 2s;
+        display: block;
+        position: absolute;
+        animation-fill-mode: forwards;
+        left: 520px;
+        z-index: 3;
+    }
+
+
+    @keyframes pine3 {
+        0% {
+            top: 400px;
+        }
+
+        100% {
+            top: 160px;
+        }
+    }
+    /**/
+    #mto {
+        width: 30%;
+        height: auto;
+        position: relative;
+        -webkit-animation: carpet 2s infinite normal ease-out;
+        animation: carpet 2s;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes carpet {
+        0% {
+            top: 5px;
+        }
+
+        100% {
+            top: 300px;
+        }
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+
+
+    .absolute {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .ajanvaraus {
+        margin-top: 350px !important;
+        background-color: white;
+        top: inherit;
+        clear: both;
+        max-width: inherit;
+    }
+
+
+    #hpp {
+        width: 15%;
+        height: auto;
+        position: absolute;
+        -webkit-animation: horse 3s infinite normal ease-out;
+        animation: horse 3s;
+        display: block;
+        margin-left: 70%;
+        animation-fill-mode: forwards;
+        left: -650px;
+        z-index: 1;
+        transform: rotate(30deg);
+    }
+
+
+    @keyframes horse {
+        0% {
+            top: -80px;
+        }
+
+        100% {
+            top: 160px;
+        }
+    }
+
+    #flm {
+        width: 20%;
+        height: auto;
+        position: relative;
+        -webkit-animation: flamingo 2s infinite normal ease-out;
+        animation: flamingo 2s;
+        display: block;
+        margin-left: 70%;
+        animation-fill-mode: forwards;
+        top: 450px;
+    }
+
+    @keyframes flamingo {
+        0% {
+            left: 300px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+
+    #shv {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        -webkit-animation: sofa 2s infinite normal ease-out;
+        animation: sofa 2s;
+        display: block;
+        margin-top: 10%;
+        margin-left: 31%;
+        animation-fill-mode: forwards;
+        z-index: 3;
+    }
+
+    @keyframes sofa {
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: 350px;
+        }
+    }
+
+
+
+    #hly {
+        max-width: 30%;
+        height: auto;
+        position: absolute;
+        -webkit-animation: hylly 1s infinite normal ease-out;
+        animation: hylly 1s;
+        display: block;
+        margin-top: 5%;
+        margin-left: 31%;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes hylly {
+        0% {
+            top: 0px;
+        }
+
+        100% {
+            top: 230px;
+        }
+    }
+
+    #pnapl1 {
+        width: 10%;
+        height: auto;
+        -webkit-animation: pine1 2s infinite normal ease-out;
+        animation: pine1 2s;
+        display: block;
+        position: absolute;
+        animation-fill-mode: forwards;
+        top: 235px;
+        margin-left: 22%;
+        z-index: 3;
+    }
+
+    @keyframes pine1 {
+        0% {
+            left: 0px;
+        }
+
+        100% {
+            left: 140px;
+        }
+    }
+
+    #pnapl2 {
+        width: 10%;
+        height: auto;
+        -webkit-animation: pine2 2s infinite normal ease-out;
+        animation: pine2 2s;
+        display: block;
+        position: absolute;
+        margin-left: 50%;
+        animation-fill-mode: forwards;
+        left: -55px;
+        z-index: 3;
+    }
+
+    @keyframes pine2 {
+        0% {
+            top: -200px;
+        }
+
+        100% {
+            top: 225px;
+        }
+    }
+
+    #pnapl3 {
+        width: 10%;
+        height: auto;
+        -webkit-animation: pine3 2s infinite normal ease-out;
+        animation: pine3 2s;
+        display: block;
+        position: absolute;
+        animation-fill-mode: forwards;
+        left: 560px;
+        z-index: 3;
+    }
+
+
+    @keyframes pine3 {
+        0% {
+            top: 400px;
+        }
+
+        100% {
+            top: 215px;
+        }
+    }
+
+    #mto {
+        width: 30%;
+        height: auto;
+        position: relative;
+        -webkit-animation: carpet 2s infinite normal ease-out;
+        animation: carpet 2s;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes carpet {
+        0% {
+            top: 5px;
+        }
+
+        100% {
+            top: 370px;
+        }
+    }
+}
+
+
+/*//gallery*/
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  vertical-align: central;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
