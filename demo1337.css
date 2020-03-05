@@ -1,10 +1,7 @@
 ﻿
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower&display=swap');
 
-body {
-    font-family: 'Amatic SC', cursive;
-    font-size: 26px;
-}
+
 /*@media (min-width: 500px) {
     body {
         background: url('../img/mobile.PNG');
@@ -25,9 +22,7 @@ body {
     right: 1px;
 }
 
-.start {
-    clear: both;
-}
+
 
 .absolute {
     position: absolute;
@@ -43,10 +38,29 @@ body {
     clear: both;
 }
 
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    background-image: url('./img/3dbuttom.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    background-size: contain;
+    z-index: -2;
+}
+
+.bg {
+  
+}
+
 #logo {
     width: 35%;
     height: auto;
-    position: absolute;
+    position: relative;
     left: 36%;
 }
 
@@ -56,17 +70,17 @@ body {
     position: absolute;
     -webkit-animation: horse 3s infinite normal ease-out;
     animation: horse 3s;
-    display: block;
+    /*display: block;*/
     margin-left: 70%;
     animation-fill-mode: forwards;
-    left: -60%;
-    z-index: 1;
+    left: -55%;
+    /*z-index: 1;*/
 }
 
 
 @keyframes horse {
     0% {
-        top: -80%;
+        top: -100%;
     }
 
     100% {
@@ -76,14 +90,15 @@ body {
 
 #flm {
     width: 20%;
-    height: auto;
+    /*height: auto;*/
     position: relative;
     -webkit-animation: flamingo 2s infinite normal ease-out;
     animation: flamingo 2s;
-    display: block;
-    margin-left: 70%;
+    /*display: block;*/
+    margin-left: 65%;
     animation-fill-mode: forwards;
-    top: 400px;
+    top: 80px;
+    background-attachment: fixed;
 }
 
 @keyframes flamingo {
@@ -98,15 +113,17 @@ body {
 /**/
 #shv {
     width: 30%;
-    height: auto;
-    position: absolute;
+    /*height: auto;*/
+    position: relative;
     -webkit-animation: sofa 2s infinite normal ease-out;
     animation: sofa 2s;
-    display: block;
-    margin-top: 10%;
-    margin-left: 22%;
+    /*display: block;*/
+    margin-top: -45%;
+    left: 36%;
     animation-fill-mode: forwards;
     z-index: 3;
+    /*left: 36%;*/
+    background-attachment: fixed;
 }
 
 @keyframes sofa {
@@ -122,14 +139,14 @@ body {
 
 
 #hly {
-    max-width: 25%;
+    max-width: 30%;
     height: auto;
-    position: absolute;
+    position: relative;
     -webkit-animation: hylly 1s infinite normal ease-out;
     animation: hylly 1s;
-    display: block;
-    margin-top: 5%;
-    margin-left: 25%;
+    /*display: block;*/
+    margin-top: -60%;
+    left: 36%;
     animation-fill-mode: forwards;
 }
 
@@ -148,12 +165,12 @@ body {
     height: auto;
     -webkit-animation: pine1 2s infinite normal ease-out;
     animation: pine1 2s;
-    display: block;
-    position: absolute;
+    /*display: block;*/
+    position: relative;
     animation-fill-mode: forwards;
-    top: 190px;
-    margin-left: 22%;
-    z-index: 3;
+    margin-top: -39%;
+    margin-left: 36%;
+    /*z-index: 3;*/
 }
 
 @keyframes pine1 {
@@ -172,9 +189,9 @@ body {
     height: auto;
     -webkit-animation: pine2 2s infinite normal ease-out;
     animation: pine2 2s;
-    display: block;
-    position: absolute;
-    margin-left: 50%;
+    /*display: block;*/
+    position: relative;
+    left: 36%;
     animation-fill-mode: forwards;
     left: 55px;
     z-index: 3;
@@ -197,11 +214,12 @@ body {
     height: auto;
     -webkit-animation: pine3 2s infinite normal ease-out;
     animation: pine3 2s;
-    display: block;
+    /*display: block;*/
     position: absolute;
     animation-fill-mode: forwards;
-    left: 710px;
+    left: 25%;
     z-index: 3;
+    margin-top: -20%;
 }
 
 
@@ -218,13 +236,13 @@ body {
 #mto {
     width: 30%;
     height: auto;
-    position: relative;
+    position: absolute;
     -webkit-animation: carpet 2s infinite normal ease-out;
     animation: carpet 2s;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    left: 36%;
     animation-fill-mode: forwards;
+    margin-top: 10%;
 }
 
 @keyframes carpet {
@@ -247,7 +265,7 @@ body {
         width:auto;
         overflow: hidden;
     }*/
-    .container {
+    /*.container {
         height: 20vh;
     }
 
@@ -281,10 +299,10 @@ body {
         animation-fill-mode: forwards;
         left: -650px;
         z-index: 1;
-    }
+    }*/
 
 
-    @keyframes horse {
+    /*@keyframes horse {
         0% {
             top: -80px;
         }
@@ -314,9 +332,9 @@ body {
         100% {
             left: 0px;
         }
-    }
+    }*/
     /**/
-    #shv {
+    /*#shv {
         width: 30%;
         height: auto;
         position: absolute;
@@ -338,7 +356,7 @@ body {
             top: 350px;
         }
     }
-    /**/
+    
 
 
     #hly {
@@ -362,7 +380,7 @@ body {
             top: 230px;
         }
     }
-    /**/
+ 
     #pnapl1 {
         width: 10%;
         height: auto;
@@ -386,7 +404,6 @@ body {
         }
     }
 
-    /**/
     #pnapl2 {
         width: 10%;
         height: auto;
@@ -411,7 +428,7 @@ body {
     }
 
 
-    /**/
+
     #pnapl3 {
         width: 10%;
         height: auto;
@@ -434,7 +451,7 @@ body {
             top: 215px;
         }
     }
-    /**/
+
     #mto {
         width: 30%;
         height: auto;
@@ -456,10 +473,10 @@ body {
             top: 410px;
         }
     }
-}
+}*/
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-device-width: 480px) and (max-device-width: 680px) and (orientation: landscape) {
+/*@media only screen and (min-device-width: 480px) and (max-device-width: 680px) and (orientation: landscape) {
 
     .container {
         height: 20vh;
@@ -530,7 +547,7 @@ body {
             left: 0px;
         }
     }
-    /**/
+
     #shv {
         width: 30%;
         height: auto;
@@ -553,7 +570,7 @@ body {
             top: 230px;
         }
     }
-    /**/
+ 
 
 
     #hly {
@@ -577,7 +594,7 @@ body {
             top: 180px;
         }
     }
-    /**/
+  
     #pnapl1 {
         width: 10%;
         height: auto;
@@ -602,7 +619,7 @@ body {
     }
 
     /**/
-    #pnapl2 {
+    /*#pnapl2 {
         width: 10%;
         height: auto;
         -webkit-animation: pine2 2s infinite normal ease-out;
@@ -623,11 +640,11 @@ body {
         100% {
             top: 175px;
         }
-    }
+    }*/
 
 
     /**/
-    #pnapl3 {
+    /*#pnapl3 {
         width: 10%;
         height: auto;
         -webkit-animation: pine3 2s infinite normal ease-out;
@@ -649,7 +666,7 @@ body {
             top: 160px;
         }
     }
-    /**/
+  
     #mto {
         width: 30%;
         height: auto;
@@ -671,11 +688,11 @@ body {
             top: 300px;
         }
     }
-}
+}*/
 
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
 
 
@@ -879,7 +896,7 @@ body {
             top: 370px;
         }
     }
-}
+}*/
 
 
 /*//gallery*/
@@ -894,16 +911,15 @@ body {
 }
 
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox; 
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
@@ -916,7 +932,6 @@ body {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -925,7 +940,6 @@ body {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
